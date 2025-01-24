@@ -4,7 +4,7 @@ import "aos/dist/aos.css"
 import { useState,useEffect } from 'react';
 import Banner from './Banner/Banner';
 import NavBar from './Navbar/NavBar';
-import DarkMode from './Navbar/DarkMode';
+// import DarkMode from './Navbar/DarkMode';
 import Hero from './Hero/Hero';
 import Products from './Product/Products'
 import TopProducts from './TopProducts/TopProducts';

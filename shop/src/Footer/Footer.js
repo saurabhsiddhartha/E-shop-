@@ -1,9 +1,7 @@
 import React from "react";
 
 import { FiShoppingBag } from "react-icons/fi";
-import { FaMapLocation } from "react-icons/fa6";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { IoCall } from "react-icons/io5";
 
 const FooterLink = [
   {

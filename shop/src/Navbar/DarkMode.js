@@ -1,7 +1,6 @@
 import React, { useState ,useEffect } from "react";
 import LightButton from "../assets/website/light-mode-button.png";
-import DarkButton from "../assets/website/dark-mode-button.png";
-import { TbHemisphere } from "react-icons/tb";
+import DarkButton from "../assets/website/dark-mode-button.png"; 
 
 const DarkMode = () => {
   const [theme, setTheme] = useState(

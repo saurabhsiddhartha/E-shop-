@@ -33,6 +33,7 @@ const TopProducts = ({ handlOrderPopUp }) => {
   return (
     <div className="container">
       <div className="text-left my-24">
+        <div className="my-24">
         <p data-aos="fade-up" className="text-sm text-primary">
           Top Rated Products for you
         </p>
@@ -40,8 +41,9 @@ const TopProducts = ({ handlOrderPopUp }) => {
           Best Products
         </h1>
         <p data-aos="fade-up" className="text-xs text-gray-400 ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rem 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rem
         </p>
+        </div>
         <div>
           <div className="grid grid-cols-1 sm:grid-cols-3 mg:grid-cols-3 gap-20 md:gap-5 place-items-center">
             {ProductsData.map((data) => (
@@ -50,7 +52,11 @@ const TopProducts = ({ handlOrderPopUp }) => {
                 className="rounded-2xl text-center bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[300px]"
               >
                 <div>
-                    <img src={data.img} alt="" className="max-w-[140px] blok mx-auto transform -translate-y-20 group-hover:scale-105 duration-300 drop-shadow-md"/>
+                  <img
+                    src={data.img}
+                    alt=""
+                    className="max-w-[140px] blok mx-auto transform -translate-y-20 group-hover:scale-105 duration-300 drop-shadow-md"
+                  />
                 </div>
                 <div className="w-full flex items-center justify-center gap-1">
                   <FaStar className="text-yellow-500" />

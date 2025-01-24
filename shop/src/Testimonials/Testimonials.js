@@ -1,5 +1,4 @@
-import React from "react";
-import { CiSettings } from "react-icons/ci";
+import React from "react"; 
 import Slider from "react-slick";
 
 const Testimonials = () => {
