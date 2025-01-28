@@ -21,7 +21,7 @@ const ImageList = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit fugiat facilis explicabo earum, quas sit! Eius corrupti, facilis repellendus adipisci odio et ut eaque illo porro placeat animi fugiat maiores!",
   },
   {
-    id: 1,
+    id: 3,
     img: Image3,
     title: "Upto 99% off on all Men's Wear",
     description:
@@ -48,8 +48,8 @@ const Hero = ({ handleOrderPopup }) => {
         <Slider {...setting}>
           {ImageList.map((data) => (
             <div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 ">
-                <div className="flex flex-col justify-center pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10">
+              <div className="grid grid-cols-1 sm:grid-cols-2" >
+                <div className="flex flex-col justify-center pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10" >
                   <h1
                     data-aos="zoom-out"
                     data-aos-duration="500"
@@ -87,7 +87,7 @@ const Hero = ({ handleOrderPopup }) => {
                     data-aos-once="true"
                     className="relative z-10"
                   >
-                    <img
+                    <img 
                       src={data.img}
                       alt="slider images"
                       className="w-[300px] h-[300px] sm:h-[450] sm:w-[450] sm:scale-105 lg:scale-120 object-contain mx-auto"
